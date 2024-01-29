@@ -1,0 +1,23 @@
+.navbar {
+    background-color: rgb(180, 234, 250);
+}
+
+.btn {
+    background-color: rgb(247, 247, 247);
+}
+
+.content {
+    padding: 60px 2.5vw;
+}
+
+.catalog {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px 30px;
+}
+
+.card img{
+    height: auto;
+    width: auto;
+    margin: 20px;
+}
