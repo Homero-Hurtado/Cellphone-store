@@ -16,8 +16,19 @@
     gap: 30px 30px;
 }
 
+.card{
+    display: flex;
+    align-items: center;
+}
+
+.imgsp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 260px;
+    max-width: 240px;
+}
+
 .card img{
-    height: auto;
-    width: auto;
     margin: 20px;
 }
