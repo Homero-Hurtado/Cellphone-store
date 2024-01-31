@@ -9,6 +9,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/eea2cdfac6.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
@@ -51,7 +52,7 @@
                 </ul>
                 <form class="d-flex">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-primary" type="submit">Search</button>
+                    <button class="btn btn-warning" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
                 </form>
             </div>
         </div>
@@ -212,6 +213,49 @@
                         </tbody>
                     </table>
                     <a href="#" class="btn btn-outline-primary">Add to cart</a>
+                </div>
+            </div>
+            <div class="card card-order" style="width: 18rem;">
+                <h5 class="card-title order-tittle">Purchase summary</h5>
+                <div class="imgsp">
+                    <img src="img/samsung-galaxy-s24.jpg" class="card-img-top" alt="...">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Samsung Galaxy S24 Ultra</h5>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="row"></th>
+                                <th scope="row"></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Product</td>
+                                <td>#</td>
+                            </tr>
+                            <tr>
+                                <td>Shipment</td>
+                                <td>#</td>
+                            </tr>
+                            <tr>
+                                <td>Import charges</td>
+                                <td colspan="2">#</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Subtotal</th>
+                                <td colspan="2">#</td>
+                            </tr>
+                            <tr>
+                                <td>VAT</td>
+                                <td colspan="2">#</td>
+                            </tr>
+                            <th class="total-tittle" scope="row">Total</th>
+                            <td colspan="2">#</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <a href="#" class="btn btn-warning">Confirm order</a>
                 </div>
             </div>
         </div>

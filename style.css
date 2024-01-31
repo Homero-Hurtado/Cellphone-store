@@ -2,10 +2,6 @@
     background-color: rgb(180, 234, 250);
 }
 
-.btn {
-    background-color: rgb(247, 247, 247);
-}
-
 .content {
     padding: 60px 2.5vw;
 }
@@ -19,6 +15,12 @@
 .card{
     display: flex;
     align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.order-tittle{
+    color: rgb(52, 52, 255);
+    padding: 10px;
 }
 
 .imgsp{
@@ -31,4 +33,14 @@
 
 .card img{
     margin: 20px;
+}
+
+.total-tittle{
+    color: brown;
+}
+
+.card-order{
+    box-shadow: none;
+    border: none;
+    margin-left: 100px;
 }
